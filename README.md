@@ -19,18 +19,17 @@ Fern Bot will have an official bot you can invite to your server soon, but if yo
 
 FILE STRUCTURE:
 
-In the root directory, you will find the GitHub-related files as well as all sub-directories.
-In the Midea folder, you will find all bot icons and Midea.
-The Commands and Events folder contains all the command and event files organized into sub-directories.
-The Main_Code folder contains the main file, the send commands file (which sends the commands to Discord,) and the Info.json file,
-which contains the bot client information (token, ID, etc.)
-There is also a builder.py file that builds and runs the bot.
+In the root directory, you will find all GitHub and NPM related files.
+In the "Commands" and "Events" folders, all command and event files are stored, sorted in to sub-directorys.
+In the "Main_Code" folder you will find the main code for the bot, as well as the builder program.
+In the "Data" folder, there is all bot data (like tokens and defualt settings,) as well as a configuration file for each guild the bot is in. These configuration files are stored in the "Servers" sub-directory.
+In the "Midea" folder you will find all the bot's icon and banner images.
+In the "Utilaties" folder, you will find modules that are used throughout the bot's code.
+In the "Web Server" folder, you will find the code for a small web server, whitch is used to get data from the bot's database.
 
 NOTES:
 
 1. This bot is still in the development phase, and may not work as expected, or at all.
-2. There is currently no code in the repository, this is because I just created it and have not written the initial code yet.
-   You can expect the initial code to be uploaded within a week.
 
 HELP:
 

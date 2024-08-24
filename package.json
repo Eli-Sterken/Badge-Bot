@@ -1,0 +1,29 @@
+{
+  "name": "fern-bot",
+  "version": "1.0.0",
+  "description": "This is the code for Fern Bot, a multi-purpose Discord bot. See README.md for more info.",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Fern-Bot",
+    "Discord",
+    "Bot",
+    "Discord-Bot",
+    "Moderation",
+    "Automadition",
+    "Giveaways",
+    "Server-Setup",
+    "Discord-moderation-bot"
+  ],
+  "author": "Eli Sterken",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "discord.js": "^14.15.3",
+    "express": "^4.19.2",
+    "libsodium-wrappers": "^0.7.15",
+    "npm": "^10.8.2"
+  }
+}
