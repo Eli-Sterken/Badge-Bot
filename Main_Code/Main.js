@@ -5,7 +5,6 @@
 const {Client, GatewayIntentBits} = require("discord.js");
 const {Bot_Token, Client_ID} = require("../Data/Info.json");
 const {Get_Files} = require("../Utilaties/Get_Files.js");
-const {exec} = require("child_process");
 const {REST} = require("@discordjs/rest");
 const {Routes} = require("discord.js");
 let Bot_Client = new Client({intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]});
