@@ -15,6 +15,7 @@ Client_ID = ""
 
 def Close(Type): # Function for invalid input or closure message, passing in the message type
     if(Type == "1"):
+        print("\n"
               "You input is blank or invalid. Closing in 15 seconds.") # Print an error
     elif(1 == 1):
         print("\n"
