@@ -1,29 +1,30 @@
 {
-  "name": "fern-bot",
+  "name": "badge-bot",
   "version": "1.0.0",
-  "description": "This is the code for Fern Bot, a multi-purpose Discord bot. See README.md for more info.",
+  "description": "Badge Bot isaDiscord bot that can get you the Active Developer Badge! Learn more in README.md",
   "main": "Main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eli-Sterken/Fern-Bot.git"
+  },
   "keywords": [
-    "Fern-Bot",
     "Discord",
-    "Bot",
     "Discord-Bot",
-    "Moderation",
-    "Automadition",
-    "Giveaways",
-    "Server-Setup",
-    "Discord-moderation-bot"
+    "Active-Developer",
+    "Badge",
+    "Discord-Badge"
   ],
   "author": "Eli Sterken",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eli-Sterken/Fern-Bot/issues"
+  },
+  "homepage": "https://github.com/Eli-Sterken/Fern-Bot#readme",
   "dependencies": {
-    "@discordjs/voice": "^0.17.0",
     "discord.js": "^14.15.3",
-    "express": "^4.19.2",
-    "libsodium-wrappers": "^0.7.15",
     "npm": "^10.8.2"
   }
 }

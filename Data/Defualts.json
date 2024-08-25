@@ -1,8 +1,0 @@
-{
-    "Join_Message":"has joined! Say hi!",
-    "Leave_Message":"has left! Say goodbye!",
-    "Mute_Message":"has been muted! It's so quiet.",
-    "Timeout_Message":"has been timed-out. See 'em soon!",
-    "Kick_Message":"has been kicked! I wonder if they will come back?",
-    "Ban_Message":"has been banned! Don't break the rules "
-}
