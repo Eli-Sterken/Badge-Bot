@@ -9,7 +9,7 @@ Badge bot get's you the active developer badge, by just running the /badge comma
 ### SETUP:
 
 1. Download and run the installer [Here](https://nodejs.org/en/download/prebuilt-installer) and [Here](https://www.python.org/downloads/)
-2. Run the builder file in Main_Code(i.e. - Build.py)
+2. Run the builder file (i.e. - build.py)
 3. Create a Discord bot client and enter its information as the file prompts you (You must know how to make a bot client, if you don't there are plenty of videos telling you how)
 4. Invite the bot to your server and watch it work!
 
@@ -22,6 +22,7 @@ Main.js Starts the bot and contans all the code.
 ### NOTES:
 
 1. This bot is still in the development phase, and may not work as expected, or at all.
+2. You can run the build script with -v for version info or -h for help.
 
 ### HELP:
 

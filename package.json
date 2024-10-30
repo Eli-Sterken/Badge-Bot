@@ -25,6 +25,7 @@
   "homepage": "https://github.com/Eli-Sterken/Fern-Bot#readme",
   "dependencies": {
     "discord.js": "^14.15.3",
-    "npm": "^10.8.2"
+    "npm": "^10.8.2",
+    "typescript": "^5.6.3"
   }
 }
