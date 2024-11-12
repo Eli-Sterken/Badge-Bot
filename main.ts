@@ -2,12 +2,12 @@
 
 // First, we set all the required varibles
 
-const {token} = require("./info.json");
-const {Client, GatewayIntentBits, SlashCommandBuilder} = require("discord.js");
+import {token} from "./info.json";
+import {Client, GatewayIntentBits, SlashCommandBuilder} from "discord.js";
 let client = new Client({intents: [GatewayIntentBits.Guilds]});
 
-client.once("ready", Info => { // Once the bot is logged in
-    console.log(`Bot logged in and ready! Logged in as ${Info.user.tag}`); // Print a sucess message
+client.once("ready", info => { // Once the bot is logged in
+    console.log(`Bot logged in and ready! Logged in as ${info.user.tag}`); // Print a sucess message
     Build_Command(); // Start the function to build the command
 });
 
